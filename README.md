@@ -63,3 +63,9 @@ The following section outlines the API available inside sandbox scripts
 - execution.response.*
 - execution.cookies.*
 - execution.console.*
+
+## Contributing
+
+### Debug in browser
+
+Set karma conf to use `Chrome` as browser. Now open chrome devtools to observe console!
