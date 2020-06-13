@@ -1,4 +1,6 @@
-('sandbox timeout', function () {
+// @todo find ways to support basic timeout, if not the real ones that protect against infinite loops, but at least
+// ones that can emulate the timeout APIs
+(typeof window === 'undefined' ? describe : describe.skip)('sandbox timeout', function () {
     this.timeout(1000 * 60);
     var Sandbox = require('../../lib');
 

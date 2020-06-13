@@ -1,4 +1,4 @@
-('timers inside sandbox', function () {
+describe('timers inside sandbox', function () {
     this.timeout(1000 * 60);
     var Sandbox = require('../../lib'),
         ctx;
